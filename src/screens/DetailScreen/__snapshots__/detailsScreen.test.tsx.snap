@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <DetailsScreen/> debe de hacer match con el snapchot 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "backgroundColor": "#CFD6FF",
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "Avenir",
+          "fontSize": 24,
+          "fontWeight": "800",
+          "marginBottom": 24,
+          "marginLeft": 20,
+          "marginTop": 59,
+        }
+      }
+    >
+      Nombre del producto
+    </Text>
+  </View>,
+  <View
+    style={
+      Object {
+        "marginHorizontal": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://loremflickr.com/640/480/technics",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 350,
+            "marginTop": 10,
+            "width": 353,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#9B9898",
+          "fontFamily": "Avenir",
+          "fontSize": 14,
+          "fontWeight": "800",
+          "marginBottom": 20,
+          "marginTop": 20,
+        }
+      }
+    >
+      Detalles del producto:
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#020202",
+          "fontFamily": "Avenir",
+          "fontSize": 16,
+          "fontWeight": "800",
+        }
+      }
+    >
+      Comprado el 
+      9 de Diciembre, 2022
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#9B9898",
+          "fontFamily": "Avenir",
+          "fontSize": 14,
+          "fontWeight": "800",
+          "marginBottom": 20,
+          "marginTop": 20,
+        }
+      }
+    >
+      Con esta compra acumulaste:
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#020202",
+          "fontFamily": "Avenir",
+          "fontSize": 24,
+          "fontWeight": "800",
+        }
+      }
+    >
+      16434
+       puntos
+    </Text>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#334FFA",
+          "borderRadius": 10,
+          "height": 50,
+          "justifyContent": "center",
+          "marginTop": 37,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Avenir",
+            "fontSize": 16,
+            "fontWeight": "800",
+          }
+        }
+      >
+        Todos
+      </Text>
+    </View>
+  </View>,
+]
+`;

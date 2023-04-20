@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <ButtonBox/> debe de hacer match con el snapchot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 20,
+        "elevation": 9,
+        "height": 143,
+        "justifyContent": "center",
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": -2,
+        },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 3,
+        "width": 286,
+      },
+      Object {
+        "backgroundColor": "",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontFamily": "Avenir",
+        "fontSize": 16,
+        "fontWeight": "800",
+        "marginLeft": 19,
+        "paddingBottom": 80,
+        "position": "absolute",
+      }
+    }
+  >
+    
+  </Text>
+  <ActivityIndicator
+    color="#FFFFFF"
+    size="large"
+  />
+</View>
+`;

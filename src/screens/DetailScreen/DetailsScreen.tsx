@@ -17,7 +17,7 @@ export const DetailsScreen = ({route}: Props) => {
   return (
     <>
       <View style={styles.hederContainer}>
-        <Text style={styles.title}>Nombre del producto</Text>
+        <Text style={styles.title}>{item.product}</Text>
       </View>
       <View style={styles.container}>
         <View style={styles.imageContainer}>
@@ -30,7 +30,7 @@ export const DetailsScreen = ({route}: Props) => {
         <Text style={styles.descriptiveTitle}>Con esta compra acumulaste:</Text>
         <Text style={styles.textPoints}>{item.points} puntos</Text>
         <TouchableOpacity style={styles.containerButton} onPress={() => navigation.goBack()}>
-          <Text style={styles.textButton}>Todos</Text>
+          <Text style={styles.textButton}>Aceptar</Text>
         </TouchableOpacity>
       </View>
     </>

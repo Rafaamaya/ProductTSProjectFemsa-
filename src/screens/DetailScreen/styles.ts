@@ -18,7 +18,7 @@ export default StyleSheet.create({
     color: '#000000',
     marginBottom: 24,
     marginLeft: 20,
-    marginTop: 59,
+    marginTop: 49,
   },
   image: {
     width: 353,
@@ -52,7 +52,7 @@ export default StyleSheet.create({
     height: 50,
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 37,
+    marginTop: 31,
   },
   textButton: {
     fontSize: 16,
